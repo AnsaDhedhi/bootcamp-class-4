@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <div className={`box ${isMorning ? 'dayLight' : ''}`}>
-      <h1> Day time = {isMorning ? 'Morning' : 'Night'}</h1>
+      <h1> Good {isMorning ? 'Morning' : 'Night'}</h1>
 
       <Message counter={count}/>
       <br />
